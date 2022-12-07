@@ -6,7 +6,8 @@ $like = $_POST['like'];
 // ファイルに書き込み
 $file = fopen('data/data.txt','a');
 
-fwrite($file,  $days . $like . "\n");
+fwrite($file,  $days .  "\n");
+fwrite($file,  $like . "\n");
 
 
 fclose($file);

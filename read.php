@@ -11,7 +11,10 @@
 </head>
 <body>
 
+<div class="back-all">
+<div class="back-second">
 <div class="text-all">
+
 
 <?php
 // ファイルを開く。モードは'r' = 読み込みのみでオープン。
@@ -21,8 +24,7 @@ $openFile = fopen('./data/data.txt', 'r');
 while ($str = fgets($openFile)) {
                                     //while ⇒ ①関数
                                     //( ②whileの為に必要な材料)
-                                    //$str ⇒ string 文字列の略
-    
+                                    //$str ⇒ string 文字列の略                                  
     echo '<div class="comment">';                                //(③fgetsの為に必要な材料)
     echo nl2br($str);
     echo '</div>';  
@@ -33,6 +35,8 @@ while ($str = fgets($openFile)) {
 fclose($openFile);
 
 ?>
+</div>
+</div>
 </div>
 </body>
 </html>

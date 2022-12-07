@@ -1,6 +1,88 @@
 
+.back-all{
+    background-image: url("../img/back-img.jpg");
+    /*カーテン*/
+}
+
+.back-second{
+    margin: auto;
+    text-align: center;
+    width: 830px;
+    background-image: url("../img/25279532_s.jpg");
+    /*花のイラスト*/
+    border-width: 25px;
+}
+
 .text-all{
     margin: auto;
     text-align: center;
+    width: 800px;
+    background-image: url("../img/22012855.png");
+    border: 10px ridge #c1ab05;
+    border-width: 25px;
+    /*額縁*/
+}
+
+
+
+.comment{
+    width: 300px;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+.comment:nth-child(1){
+    width: 300px;
+    margin: 100px 100px 0 100px;
+    background-color:  #e6c0c0;
+}
+.comment:nth-child(2){
+    width: 300px;
+    margin: 0 100px 100px 100px;
+    background-color: #e6c0c0;
+}
+
+.comment:nth-child(3){
+    width: 300px;
+    margin: 100px 100px 0 100px;
+    background-color:  #69aac6;
+}
+.comment:nth-child(4){
+    width: 300px;
+    margin: 0 100px 100px 100px;
+    background-color:   #69aac6;    
+}
+
+.comment:nth-child(5){
+    width: 300px;
+    margin: 100px 100px 0 100px;
+    background-color:  #e6c0c0;
+}
+.comment:nth-child(6){
+    width: 300px;
+    margin: 0 100px 100px 100px;
+    background-color: #e6c0c0;    
+}
+
+.comment:nth-child(7){
+    width: 300px;
+    margin: 100px 100px 0 100px;
+    background-color:  #e6c0c0;
+}
+.comment:nth-child(8){
+    width: 300px;
+    margin: 0 100px 100px 100px;
+    background-color: #e6c0c0;    
+}
+
+.comment:nth-child(9){
+    width: 300px;
+    margin: 100px 100px 0 100px;
+    background-color:  #e6c0c0;
+}
+.comment:nth-child(10){
+    width: 300px;
+    margin: 0 100px 100px 100px;
+    background-color: #e6c0c0;    
 }
 
