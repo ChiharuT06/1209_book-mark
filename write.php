@@ -1,13 +1,12 @@
 <?php
 
-$name = $_POST['name'];
-$birthPlace = $_POST['birthPlace'];
+$days = $_POST['days'];
+$like = $_POST['like'];
 
-$time = date('Y-m-d H:i:s');
 // ファイルに書き込み
 $file = fopen('data/data.txt','a');
 
-fwrite($file, $time . $name . $birthPlace . "\n");
+fwrite($file,  $days . $like . "\n");
 
 
 fclose($file);
