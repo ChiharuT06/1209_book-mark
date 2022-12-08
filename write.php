@@ -27,7 +27,7 @@ fclose($file);
 <body>
 
     <h1>書き込みしました。</h1>
-    <h2>./data/data.txt を確認しましょう！</h2>
+    <h2>喜んでくれるといいですね！</h2>
 
     <ul>
         <li><a href="read.php">確認する</a></li>
